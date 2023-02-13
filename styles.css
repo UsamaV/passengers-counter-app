@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/images/passengers.jpg");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+}
+
+button {
+    border: none;
+    padding: 0.8em 0 0.8em 0;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 0 5px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
